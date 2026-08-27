@@ -5,14 +5,14 @@ SMART MEDIA MANAGER - MULINMA KARANNA ONA DEWAL
 
 2. Frontend run karanna:
    Terminal 1:
-   cd Smart_Media_Manager_Completed
+   cd ST20306095_Smart_Media_Manager_Source
    cp .env.example .env
    npm install
    npm run dev
 
 3. Backend run karanna:
    Terminal 2:
-   cd Smart_Media_Manager_Completed/backend
+   cd ST20306095_Smart_Media_Manager_Source/backend
    python3.11 -m venv .venv
    source .venv/bin/activate
    pip install -r requirements.txt
