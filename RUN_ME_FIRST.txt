@@ -1,0 +1,42 @@
+SMART MEDIA MANAGER - MULINMA KARANNA ONA DEWAL
+
+1. Original project ZIP eke thibba real .env keys rotate karanna.
+   Supabase service key, Cloudinary secret saha JWT secret aluth karanna.
+
+2. Frontend run karanna:
+   Terminal 1:
+   cd Smart_Media_Manager_Completed
+   cp .env.example .env
+   npm install
+   npm run dev
+
+3. Backend run karanna:
+   Terminal 2:
+   cd Smart_Media_Manager_Completed/backend
+   python3.11 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   cp .env.example .env
+   python scripts/seed_demo.py
+   python app.py
+
+4. Login:
+   photographer@example.com
+   Demo1234
+
+5. DeepFace/TensorFlow AI eka enable karanna:
+   pip install -r requirements-ai.txt
+   python scripts/check_ai.py
+
+6. Full asynchronous architecture eka pennanna Redis run karala backend/.env eke
+   USE_CELERY=true karanna. Ita passe terminal dekak use karanna:
+   python app.py
+   celery -A celery_app.celery worker --loglevel=info
+
+7. Supabase saha Cloudinary use karana steps README.md eke thiyenawa.
+
+8. Final submission ZIP ekata mewa daanna epa:
+   .env, node_modules, .venv, backend/uploads, backend/data, model cache files.
+
+Note: AI accuracy results project eke fabricate karala ne. Test dataset eka use karala actual
+precision, recall, false match, false rejection saha response time results collect karanna ona.
