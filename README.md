@@ -64,7 +64,7 @@ Use **Python 3.11** for the AI dependency versions supplied here.
 ### 1. Frontend
 
 ```bash
-cd Smart_Media_Manager_Completed
+cd ST20306095_Smart_Media_Manager_Source
 cp .env.example .env
 npm install
 npm run dev
