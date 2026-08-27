@@ -1,0 +1,4 @@
+-r requirements.txt
+deepface==0.0.91
+tensorflow==2.15.0
+tf-keras==2.15.1
